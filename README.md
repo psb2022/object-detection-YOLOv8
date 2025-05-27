@@ -35,7 +35,7 @@ Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시
 ---
 
 ## 시스템 아키텍처
-(./architecture.png)
+![architecture](architecture.png)
 
 ```
 [Browser (React)] ⇄ REST API ⇄ [Flask 서버 (Colab)] → YOLOv8 모델
