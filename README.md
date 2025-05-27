@@ -70,6 +70,6 @@ Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시
 
 ## 포트폴리오 링크
 
-(https://github.com/your-username/yolov8-object-detection-webapp)
+(https://github.com/psb2022/object-detection-YOLOv8)
 
 ---
