@@ -37,13 +37,6 @@ Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시
 ## 시스템 아키텍처
 ![architecture](architecture.png)
 
-```
-[Browser (React)] ⇄ REST API ⇄ [Flask 서버 (Colab)] → YOLOv8 모델
-       │                              ↑
-   사용자 카메라               ngrok로 외부에 공개
-     실시간 캡처
-```
-
 ---
 
 ## 해결한 주요 이슈
