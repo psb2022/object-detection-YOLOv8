@@ -1,18 +1,11 @@
 
 # 🧠 YOLOv8 기반 실시간 객체 인식 웹 서비스
 
-Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시간으로 객체를 인식하는 웹 서비스**를 구현한 프로젝트입니다.  
-추론은 YOLOv8 모델을 활용하고, pyngrok을 통해 외부에서도 접속 가능한 실시간 API를 제공하며, 프론트엔드에서는 카메라 영상에 대해 실시간으로 바운딩 박스를 시각화합니다.
-
----
-
-## 📸 데모 화면
-
-![demo](demo_screenshot.gif)
-
 ---
 
 ## 🔧 프로젝트 개요
+Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시간으로 객체를 인식하는 웹 서비스**를 구현한 프로젝트입니다.  
+추론은 YOLOv8 모델을 활용하고, pyngrok을 통해 외부에서도 접속 가능한 실시간 API를 제공하며, 프론트엔드에서는 카메라 영상에 대해 실시간으로 바운딩 박스를 시각화합니다.
 
 - **프로젝트명:** YOLOv8 실시간 객체 인식 웹앱
 - **주요 목표:** 브라우저에서 실시간 영상 기반 객체 인식이 가능한 경량 AI 웹 애플리케이션 구현
@@ -28,6 +21,7 @@ Google Colab과 Flask, React, YOLOv8을 이용하여 **브라우저에서 실시
 | Backend     | Flask, Flask-CORS, pyngrok, OpenCV     |
 | 모델        | YOLOv8 (ultralytics 라이브러리)        |
 | 개발 환경   | Google Colab (Jupyter Notebook 기반)   |
+| 배포 접근   | ngrok (https 기반 터널링)              |
 
 ---
 
